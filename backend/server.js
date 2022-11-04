@@ -13,10 +13,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(
   cors({
-    origin: [
-      "http://localhost:3000",
-      "https://mern-task-app-frm3.onrender.com",
-    ],
+    origin: ["http://localhost:3000", "https://rcreate-task-app.onrender.com"],
   })
 );
 
